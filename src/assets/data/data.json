@@ -1,0 +1,108 @@
+{
+
+	"schedule": [{
+		"date": "2047-05-17",
+		"groups": [{
+			"time": "Matin",
+			"sessions": [{
+				"name": "Anglais",
+				"description": "Pour construire le prétérit, on ajoute généralement -ED à la base verbale: Exemple : discover (découvrir) => discovered. play (jouer) => played Facile :-) Mais, comme vous pouvez le voir, il y a des exceptions: les verbes de la colonne de droite, qui ne suivent aucune règle et il faut donc apprendre leurs formes par coeur. Il est impossible de les deviner si on ne les connaît pas à l'avance. Si on ne les connaît pas, on commet alors de lourdes fautes qui vous vaudront les foudres de votre interlocuteur. Par exemple : geted, qui est horrible. C'est à ce moment là que commence le travail pénible d'apprentissage des verbes irréguliers.",
+				"timeStart": "8h00",
+				"timeEnd": "10h00",
+				"location": "Le prétérit - Salle B08",
+				"tracks": ["Food"]
+			}, {
+				"name": "Physique-Chimie",
+				"location": "Les éléments chimiques - Salle D04",
+				"description": "Les éléments chimiques Qu'est-ce qu'un élément chimique ? Un élément chimique désigne les différentes entités ayant comme point commun le même numéro atomique c'est à dire le même nombre de proton dans le noyau. Ainsi peuvent correspondre à un même élément chimique des entités ayant le même nombre de protons mais un nombre de neutrons différent: on parle alors d'isotopes. Des entités ayant le même nombre de protons mais des nombres différents d'électrons comme un atome et un ion peuvent également correspondre au même élément chimique.",
+				"speakerNames": ["Ellie Elephant"],
+				"timeStart": "10h15 am",
+				"timeEnd": "12h15 am",
+				"tracks": ["Ionic"]
+			}]
+		}, {
+			"time": "12h00",
+			"sessions": [{
+				"name": "Self",
+				"location": "Self de Anne-Marie Javouhey",
+				"description": "C'est l'heure de venir manger au self",
+				"timeStart": "12h15",
+				"timeEnd": "13h30",
+				"tracks": ["Food"]
+			}]
+		}, {
+			"time": "Après-midi",
+			"sessions": [{
+				"name": "Français",
+				"location": "Impératif présent - Salle A-115",
+				"description": "L'impératif est un mode qui sert à l'expression de l'ordre. EX : Viens ici, écoute-moi. Le mode impératif ne comporte que deux temps : Le présent et le passé. La règle générale de formation de l'impératif présent Les verbes à l'impératif =>ne se conjuguent qu'à trois personnes : La 2e personne du singulier et les 1re et 2e personnes du pluriel. =>Le pronom personnel sujet n'est pas exprimé avant le verbe. =>On le forme sur le même radical que le présent de l'indicatif auquel on ajoute les terminaisons suivantes : -e, -ons, -ez. Vous constatez qu’il ne faut pas mettre de « s » à la seconde personne de l’impératif (sauf exceptions décrites plus bas dans le cours) Ex : Mange, Mangeons, Mangez Ex : offre, offrons, offrez à l'exception des verbes suivant dont le radical diffère du présent Etre : sois, soyons, soyez Avoir : aie, ayons, ayez Savoir : sache, sachons, sachez",
+				"speakerNames": ["Paul Puppy"],
+				"timeStart": "13h30",
+				"timeEnd": "14h30",
+				"tracks": ["Angular"]
+			}, {
+				"name": "Histoire-Géo",
+				"location": "Les traides - Salle B-02",
+				"description": "La triade désigne en géographie économique les trois pôles qui dominent actuellement l'économie mondiale : l'Asie orientale, l'Europe occidentale et l'Amérique du Nord. La notion a été définie par l'économiste japonais Kenichi Ohmae en 1985. Il y désigne sous ce nom les trois marchés majeurs de la planète que sont alors le Japon, la CEE (dix membres à cette date) et les États-Unis, où toute grande entreprise multinationale se doit d'être présente. La « triade » ainsi délimitée regroupe la majeure partie du PIB mondial d'alors (75 % au début des années 1990). Les trois régions qui la composent réunissent les principaux acteurs de la mondialisation contemporaine et entretiennent des relations étroites avec leurs périphéries respectives : Amérique latine, Asie du Sud-Est, Europe de l'Est et Afrique.",
+				"speakerNames": ["Gino Giraffe"],
+				"timeStart": "14h30",
+				"timeEnd": "15h30",
+				"tracks": ["Communication"]
+			}, {
+				"name": "SES",
+				"location": "Adam Smith - Salle D-04",
+				"description": "Adam Smith (5 juin 1723 - 17 juillet 1790) est un philosophe et économiste écossais des Lumières. Il reste dans l’histoire comme le père des sciences économiques modernes, dont l'œuvre principale, publiée en 1776, La Richesse des nations, est un des textes fondateurs du libéralisme économique. Professeur de philosophie morale à l'université de Glasgow, il consacre dix années de sa vie à ce texte qui inspire les grands économistes suivants, ceux que Karl Marx appellera les « classiques » et qui poseront les grands principes du libéralisme économique.",
+				"speakerNames": ["Molly Mouse", "Burt Bear"],
+				"timeStart": "15h45",
+				"timeEnd": "16h45",
+				"tracks": ["Services"]
+			}, {
+				"name": "Phylosophie",
+				"location": "Platon - Salle D-06",
+				"description": "Le Banquet est un dialogue platonicien, écrit aux alentours de 380 av. J.C. Socrate, invité à un festin, retrouve des amis. Au cours de cette soirée, les convives décident de prendre tour à tour la parole pour répondre à la question « qu’est-ce que l’amour ? ». C’est ici que l’on trouve le célèbre mythe d’Aristophane.",
+				"speakerNames": ["Molly Mouse", "Burt Bear"],
+				"timeStart": "16h45",
+				"timeEnd": "17h45",
+				"tracks": ["Documentation"]
+			}]
+		}]
+
+	}],
+
+	"speakers": [{
+		"name": "Bus et tram : trafic normal ce week-end, grève lundi",
+		"profilePic": "assets/img/speakers/bus.png",
+		"twitter": "ionicframework",
+		"about": "Après un nouveau jour de grève ce vendredi, les transports en commun circuleront normalement tout au long du week-end. Les débrayages reprendront lundi, pour se poursuivre jusqu’à vendredi.",
+		"description": "Après un nouveau jour de grève ce vendredi, les transports en commun circuleront normalement tout au long du week-end. Les débrayages reprendront lundi, pour se poursuivre jusqu’à vendredi.Le préavis de grève déposé par la CFDT jusqu’ au 13 mars ne portant pas sur les week - ends,le réseau tram et bus fonctionnera normalement ces samedi 21 et dimanche 22 janvier. Débrayages de 59 minutes. Le trafic sera en revanche perturbé les jours de semaine, du lundi au vendredi, par des débrayages de 59 minutes, chaque conducteur pouvant faire grève à n'importe quelle heure de la journée.",
+		"location": "Everywhere",
+		"email": "burt@example.com",
+		"phone": "+1-541-754-3010"
+	}, {
+		"name": "Orientation scolaire. Salon Azimut",
+		"profilePic": "assets/img/speakers/azimut.png",
+		"twitter": "ionicframework",
+		"about": "Le salon Azimut a fait le plein, hier, à Penfeld. Le samedi, les lycéens sont souvent accompagnés de leurs parents, mais quel rôle doivent-ils tenir dans l'orientation de leur enfant ? Françoise Pouliet et Marie-Cécile Massalve, deux conseillères d'orientation et psychologues au CIO de Brest, donnent quelques clefs.",
+		"description": "Quel rôle les parents doivent-ils jouer dans l'orientation de leur enfant ? Il faut être présent sans être trop envahissant.La première chose est de s 'intéresser à la scolarité de son enfant, mais aussi de bien cerner ses centres d' intérêt en dehors du champ scolaire.Il faut observer son ado dans sa vie quotidienne, l 'écouter, afin d' ouvrir son esprit à ce qu 'il est vraiment au fond de lui et hors de la structure familiale. Il est aussi important que la discussion ne soit pas toujours centrée sur un métier. Vouloir le meilleur pour son enfant, c' est avant tout vouloir qu 'il s' épanouisse.",
+		"location": "Everywhere",
+		"email": "charlie@example.com",
+		"phone": "+1-541-754-3010"
+	}],
+
+
+	"map": [{
+		"name": "Monona Terrace Convention Center",
+		"lat": 43.071584,
+		"lng": -89.380120,
+		"center": true
+	}, {
+		"name": "Ionic HQ",
+		"lat": 43.074395,
+		"lng": -89.381056
+	}, {
+		"name": "Afterparty - Brocach Irish Pub",
+		"lat": 43.07336,
+		"lng": -89.38335
+	}]
+
+}

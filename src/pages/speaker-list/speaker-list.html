@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Actualités</ion-title>
+  </ion-navbar>
+
+    <ion-toolbar no-border-top>
+      <ion-segment  [(ngModel)]="segment" >
+        <ion-segment-button value="all">
+          Tout
+        </ion-segment-button>
+        <ion-segment-button value="favorites">
+          Transport
+        </ion-segment-button>
+        <ion-segment-button value="Ent">
+          Etablissement
+        </ion-segment-button>
+      </ion-segment>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="outer-content speaker-list">
+
+  <ion-card *ngFor="let speaker of speakers" class="speaker-card">
+
+    <ion-card-header>
+      <button ion-item detail-none (click)="goToSpeakerDetail(speaker)">
+        <ion-avatar item-left>
+          <img [src]="speaker.profilePic" alt="Speaker profile pic">
+        </ion-avatar>
+        <h5>{{speaker.name}}</h5>
+        <p>{{speaker.about}}</p>
+      </button>
+    </ion-card-header>
+
+    <ion-card-content class="outer-content">
+      <ion-list>
+        <p ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">
+          {{session.name}}
+        </p>
+      </ion-list>
+    </ion-card-content>
+
+  </ion-card>
+</ion-content>

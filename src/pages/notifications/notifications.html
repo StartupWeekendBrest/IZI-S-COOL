@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Notifications</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="presentPopover($event)">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list #scheduleList>
+
+      <ion-item-group>
+
+        <ion-item-sliding>
+
+          <button ion-item>
+            <h3>Absence - Mme Dumont </h3>
+            <p>
+              Mme Dumont sera absente lundi 3 février, les cours seront donc annulés.
+            </p>
+          </button>
+        </ion-item-sliding>
+        <ion-item-sliding>
+
+          <button ion-item>
+            <h3>Conférence Débat sur l'orientation</h3>
+            <p>
+              Une conférence débat sur l'orientation se tiendra dans l'amphi B mardi 4 février, n'hésitez pas à vous inscrire
+            </p>
+          </button>
+        </ion-item-sliding>
+
+      </ion-item-group>
+    </ion-list>
+
+</ion-content>

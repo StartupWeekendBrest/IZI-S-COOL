@@ -1,0 +1,96 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Self</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="presentPopover($event)">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="about-header">
+    <img src="assets/img/speakers/self.jpg" alt="ionic logo">
+  </div>
+
+    <ion-list #scheduleList>
+
+      <ion-item-group>
+
+        <ion-item-divider sticky>
+          <ion-label>
+            Entrées
+          </ion-label>
+        </ion-item-divider>
+
+        <ion-item-sliding>
+
+          <button ion-item>
+            <h3>Salade froide</h3>
+            <p>
+              tomates séchées, emmental, maïs
+            </p>
+          </button>
+        </ion-item-sliding>
+        <ion-item-sliding>
+
+          <button ion-item>
+            <h3>Carottes rappées </h3>
+            <p>
+              Bio aux pommes bio, et raisins secs
+            </p>
+          </button>
+        </ion-item-sliding>
+
+        <ion-item-divider sticky>
+          <ion-label>
+            Plats
+          </ion-label>
+        </ion-item-divider>
+
+        <ion-item-sliding>
+
+          <button ion-item>
+            <h3>Poisson Fileté meunière</h3>
+            <p>
+              Accompagné de riz et citron bio
+            </p>
+          </button>
+        </ion-item-sliding>
+
+        <ion-item-sliding>
+
+          <button ion-item>
+            <h3>Nuggets de volaille</h3>
+            <p>
+              Accompagné de frites et légumes
+            </p>
+          </button>
+        </ion-item-sliding>
+        <ion-item-divider sticky>
+          <ion-label>
+            Desserts
+          </ion-label>
+        </ion-item-divider>
+
+        <ion-item-sliding>
+
+          <button ion-item>
+            <h3>Mousse au chocolat au lait</h3>
+          </button>
+        </ion-item-sliding>
+
+        <ion-item-sliding>
+
+          <button ion-item>
+            <h3>Ananas frais</h3>
+          </button>
+        </ion-item-sliding>
+      </ion-item-group>
+    </ion-list>
+
+</ion-content>

@@ -1,0 +1,62 @@
+<ion-header no-border>
+  <ion-navbar>
+    <ion-buttons end *ngIf="showSkip">
+      <button ion-button (click)="startApp()" color="primary">Passer</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-bounce>
+  <ion-slides (ionSlideWillChange)="onSlideChangeStart($event)" pager>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-1.png" class="slide-image"/>
+      <h2 class="slide-title">
+        Bienvenue sur <b>IZY S'COOL</b>
+      </h2>
+      <p>
+        L'application complète pour l'étudiant permettant de gagner du temps !
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-2.png" class="slide-image"/>
+      <h2 class="slide-title" >Actualités</h2>
+      <p><b>IZY S'COOL</b> vous permet de suivre les <b>actualités</b> de l'établissement et des transports</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/agenda.png" class="slide-image"/>
+      <h2 class="slide-title">Emploi du temps</h2>
+      <p>Visualisez en temps réel votre emploi du temps de la semaine</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-3.png" class="slide-image"/>
+      <h2 class="slide-title">Notifications</h2>
+      <p>Recevez des notifications de l'établissement et de Keolis, pour être informé en temps réel</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/restaurant.png" class="slide-image"/>
+      <h2 class="slide-title">Menu du self</h2>
+      <p>Recevez des notifications de l'établissement et de Keolis, pour être informé en temps réel</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/car.png" class="slide-image"/>
+      <h2 class="slide-title">Transport</h2>
+      <p>Vous êtes informé des horaires de bus pour ne pas arriver en retard</p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>
+      <h2 class="slide-title">Prêt ?</h2>
+      <button ion-button icon-right large clear (click)="startApp()">
+        C'est parti !
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-slide>
+
+  </ion-slides>
+</ion-content>
